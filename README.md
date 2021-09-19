@@ -82,3 +82,8 @@ Penting untuk memilih tools yang bisa memonitor keseluruhan proses (transparan).
 Contohnya : melalui notifikasi, email, atau bentuk komunikasi lainnya.
                                                                                                                                          
                                                                                                                                          
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90564871/133939668-f01ded9d-a525-49e1-8515-ff00353c8242.png"Sublime's custom image"/>
+</p>
+
+
