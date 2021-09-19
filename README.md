@@ -49,6 +49,12 @@ Tahap terakhir , tim IT operations akan memantau infrastruktur, sistem, dan apli
 Mereka mengumpulkan data penting dari log, analitik, sistem monitoring, serta melihat feedback dari pengguna untuk mengetahui jika ada masalah 
 pada kinerja aplikasi. Kinerja aplikasi dipantau dengan mengumpulkan dan menganalisis data penggunaan , dapat membantu mendeteksi error dan
 memberikan umpan balik untuk peningkatan software. Penelusuran dan diagnostic masalah , penting untuk perkembangan aplikasi di seluruh siklus rilis.
+                                                                                                                          
+                                                                                                                          
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90564871/133939571-98606807-5016-4d5a-9eea-fc7391c96590.jpg"Sublime's custom image"/>
+</p>
+                                                                                                                                         
 
 Continuous Integration (CI) dan Continuous Deployment (CD)
                                                                                                                           
@@ -74,7 +80,5 @@ Contohnya : jenkins atau cruise control
 3. Build Status
 Penting untuk memilih tools yang bisa memonitor keseluruhan proses (transparan).
 Contohnya : melalui notifikasi, email, atau bentuk komunikasi lainnya.
-                                                                                                                          
-<p align="center">
-  <img src="https://images.app.goo.gl/djTswgTq8xocUVPZA"Sublime's custom image" height="400" width="600" />
-</p>
+                                                                                                                                         
+                                                                                                                                         
