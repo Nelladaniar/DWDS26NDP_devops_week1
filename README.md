@@ -1,15 +1,43 @@
-# DWDS26NDP_devops_week1
+
 Project Week 1
 
-DEVOPS ENGINEER adalah profesional IT yang bertujuan memadukan proses development , deployment dan integrasi ke dalam suatu proses berkelanjutan.
-DevOps singkatan dari development dan operations . Divisi yang bekerja sama dengan devops adalah divisi operations , yang mempunyai tujuan untuk 
-mengetahui gambaran proses bisnis yang diharapkan . devops juga sangat menguasai software development life cycle ( SLDC ).
+PT. HIDAYATULLAH GLOBAL AMARTA
+    
+
+    Salah satu perusahaan start-up dibidang e-commerce fashion yang berpusat di Jakarta Timur dengan nama HIMALL, menyediakan berbagai 
+macam pakaian kekinian . 10 tahun lama nya start-up ini berpusat di bidang fashion. Seiring berjalannya waktu semakin banyak nya pengunjung di Website ,
+membuat website HIMALL tidak stabil apalagi saat harbolnas Aplikasi menjadi sangat lamban , sulit untuk dipahami dan di lakukan perubahan . 
+Semakin lama tim semakin banyak dikarenakan seringnya website menjadi tidak stabil sehingga menargetkan developer yang baru bergabung ke dalam 
+tim untuk bisa membuat tampilan website lebih stabil , kemudian para investor juga menyarankan untuk mengganti arsitektur nya dari Monolithic 
+menggunakan Microservices.
+
+    Dengan saran tersebut dan masalah yang sering muncul dengan menggunakan monolithic . Tim developer ingin mencoba mengImplemetasikan arsitektur
+Microservices sehingga HIMALL membutuhkan Seorang Devops yang handal. Dengan adanya Devops HIMALL bisa mengupdate fiture dengan mudah, feedback dan
+mudah dimonitor. Kaamil seorang Devops yang ingin membuat culture di Start-up e-commerce fashion tersebut. DevOps merupakan singkatan daari Development
+dan Operation. Dimana DEVOPS adalah seorang profesional IT yang bertujuan memadukan proses development , deployment dan integrasi ke dalam suatu proses 
+berkelanjutan. DevOps singkatan dari development dan operations , Divisi yang bekerja sama dengan devops adalah divisi operations yang mempunyai tujuan 
+untuk mengetahui gambaran proses bisnis yang diharapkan . devops juga sangat menguasai software development life cycle ( SLDC ). Pola pikir yang dibentuk 
+oleh DevOps adalah kordinasi antara tim yang dapat dilakukan dengan cara singkat .
 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90564871/133935923-10bfd508-9da8-4880-b33c-d97e8a567a41.png"Sublime's custom image" height="400" width="600" />
 </p>
 
+                                                                                                                          
+                                                                                                                          
+Continuous Integration (CI) dan Continuous Deployment (CD)
+                                                                                                                          
+    Continuous Integration / integrasi berkelanjutan adalah praktik dari DevOps , seorang developer bisa mengintegrasikan kode ke dalam repositori kode
+dan bisa menguji dengan cepat dan otomatis. sedangkan Continuous Deployment / penyebaran berkelanjutan adalah praktik setelah kode berhasil terintegrasi, 
+aplikasi kita bisa dibangun lalu rilis secara otomatis.
+                                                                                                                          
+keuntungan CI/CD : 
+-   Mendapatkan Feedback Lebih Cepat Menggunakan CI Tools
+-   Mendeteksi Bug lebih awal
+-   Visibilitas lebih baik
+                                                                                                                          
+                                                                                                                          
                                                                                                                          
 Metode DevOps memiliki siklus dalam pengembangan software. Berikut adalah penjelasan tentang siklus metode DevOps :
 
@@ -54,10 +82,6 @@ Mereka mengumpulkan data penting dari log, analitik, sistem monitoring, serta me
 pada kinerja aplikasi. Kinerja aplikasi dipantau dengan mengumpulkan dan menganalisis data penggunaan , dapat membantu mendeteksi error dan
 memberikan umpan balik untuk peningkatan software. Penelusuran dan diagnostic masalah , penting untuk perkembangan aplikasi di seluruh siklus rilis.
                                                                                                                           
-                                                                                                                          
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/90564871/133939571-98606807-5016-4d5a-9eea-fc7391c96590.jpg"Sublime's custom image"/>
-</p>
                                                                                                                                          
 
 Continuous Integration (CI) dan Continuous Deployment (CD)
