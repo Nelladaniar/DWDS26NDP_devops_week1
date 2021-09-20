@@ -24,10 +24,10 @@ Pada tahap sebelumnya, tim pengembang fokus untuk mengembangkan dan meninjau kod
 unit dilakukan berdasarkan build automation tools.
 
 3. Build
-                                                                                                                          
-Pada tahap ini tim developer selesai menulis kode dan  memasukan kode ke dalam shared code repository. Developer akan mengirimkan pull request,
-setelah developer yang lain akan mereview perubahan yang dilakukan. Jika kode sudah sempurna, maka developer tersebut akan menyetujui 
-pull request yang telah dikirim sebelumnya.
+                                                                                                                  
+tim developer selesai menulis kode dan  memasukan kode ke dalam shared code repository dan mengirimkan permintaan penggabungan kode,
+setelah mereview perubahan yang dilakukan. Jika sudah sempurna, maka developer tersebut akan menyetujui 
+permintaan penggabungan kode yang telah dikirim sebelumnya.
                                                                                                                           
 4.	Test
                                                                                                                           
