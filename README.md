@@ -87,3 +87,23 @@ Contohnya : melalui notifikasi, email, atau bentuk komunikasi lainnya.
 </p>
 
 
+4 tools yang harus dikuasai devops
+
+
+1. JENKINS
+automation server yang bersifat open source dan membantu mengotomatisasi proses software development dengan CI/CD .
+Jenkins populer di dunia DevOps Engineer karena lebih dari 1000 plugin bisa terintegrasi hampir semua alat DevOps.
+  
+2. GIT
+Git juga banyak dipakai oleh DevOps Engineer. karena memiliki fungsionalitas, kinerja, keamanan, dan fleksibilitas yang dibutuhkan tim pengembang.
+Git berfungsi sebagai alat Devops untuk distributed version-control yang penting. Git dapat melacak progres dari pengembangan sebuah projek 
+dan melihat jika ada perubahan kode di dalam source code. Sangat membantu DevOps Engineer ketika mengimplementasikan CI/CD pipeline.
+
+3. SELENIUM
+Automation testing tool untuk web application yang bisa digunakan pada berbagai browser. Biasanya digunakan oleh tim QA untuk proses software testing.
+tools ini bisa memproses pengujian berkelanjutan untuk menguji kinerja dan fungsionalitas kode yang dikembangkan.
+
+4. DOCKER
+Container management tool yang semakin berkembang dan salah satu tools penting untuk DevOps Engineer. Docker berguna ditahap deployment untuk 
+kontainerisasi aplikasi sehingga aplikasi bisa bekerja efisien untuk environment yang berbeda.
+
