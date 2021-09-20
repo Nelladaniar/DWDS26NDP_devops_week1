@@ -32,18 +32,22 @@ pull request yang telah dikirim sebelumnya.
 4.	Test
                                                                                                                           
 Fase selanjutnya adalah pengujian. Jika ada masalah yang ditemukan, maka akan dikirim kembali ke tim developer untuk diselesaikan.
+                                                                                                                          
+5. Release
+                                                                                                                          
+Fase release menjadi tonggak penting dalam DevOps pipeline. Pada tahap ini, setiap perubahan kode telah melewati serangkaian pengujian dan tim IT operations telah memastikan bahwa masalah yang merusak dan regresi sudah teratasi dengan baik.
 
-5.	Deploy
+6.	Deploy
                                                                                                                           
 Deploy menjadi hal terpenting dalam DevOps. Pada tahap ini, setiap perubahan kode sudah melalui test dan tim IT operations telah
 memastikan bahwa masalah sudah teratasi dengan baik , dan siap di rilis.
-
-6. Operate
+                                                                                                                          
+7. Operate
 
 Operasi dalam siklus DevOps berhubungan dengan konfigurasi dan pengelolaan aplikasi software setelah penerapan. misalnya, 
 penyediaan sumber daya dan penskalaan otomatis. Orchestrator dan metode runtime lainnya yang dapat menyesuaikan topologi dan komponen aplikasi.
 
-7. Monitor
+8. Monitor
                                                                                                                           
 Tahap terakhir , tim IT operations akan memantau infrastruktur, sistem, dan aplikasi. Untuk memastikan bahwa aplikasi yang dikembangkan berjalan lancar.
 Mereka mengumpulkan data penting dari log, analitik, sistem monitoring, serta melihat feedback dari pengguna untuk mengetahui jika ada masalah 
