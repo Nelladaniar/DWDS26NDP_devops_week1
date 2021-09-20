@@ -61,12 +61,14 @@ QA akan melihat dan menganalis code yang sudah sesuai dan tidak ada bug, lalu se
 yang sudah melewati tahap analisis. tools yang digunakan adalah chef . Chef memiliki dukungan API dari AWS, Azure, Rackspace, yang membuatnya mudah 
 digunakan dengan metodologi infrastruktur-sebagai-kode.
 
-3. Continuous Integration ( CI ) & Continuous Delivery and Deployment
+3. Continuous Integration ( CI ) 
    
 Tahap ini melakukan build dan testing pada aplikasi web HIMALL dan disini perusahaan menggunakan Docker untuk build dan testing secara otomatis,
 Docker adalah container memungkinkan para developer untuk mengisolasi kode ke dalam satu wadah sehingga membantu developer lebih mudah untuk memodifikasi
 dan memperbaharui program yang ada. Membantu mengotomatiskan bagian-bagian pengembangan perangkat lunak yang terkait dengan build, testing dan deploy
 dan dapat melakukan proses yang berkelanjutan. Dengan peroses integrasi yang berkelanjutan yang efesien, pengembangan lebih komitmen, yang akan membantu meningkatkan komunikasi dan meningkatkan kualitas perangkat lunak.
+
+4. Continuous Delivery and Deployment
                                                                                                       
                                                                                                                                         
 4 tools yang harus dikuasai devops
