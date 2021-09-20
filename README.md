@@ -4,14 +4,14 @@ Project Week 1
 PT. HIDAYATULLAH GLOBAL AMARTA
     
 
-    Salah satu perusahaan start-up dibidang e-commerce fashion yang berpusat di Jakarta Timur dengan nama HIMALL, menyediakan berbagai 
+Salah satu perusahaan start-up dibidang e-commerce fashion yang berpusat di Jakarta Timur dengan nama HIMALL, menyediakan berbagai 
 macam pakaian kekinian . 10 tahun lama nya start-up ini berpusat di bidang fashion. Seiring berjalannya waktu semakin banyak nya pengunjung di Website ,
 membuat website HIMALL tidak stabil apalagi saat harbolnas Aplikasi menjadi sangat lamban , sulit untuk dipahami dan di lakukan perubahan . 
 Semakin lama tim semakin banyak dikarenakan seringnya website menjadi tidak stabil sehingga menargetkan developer yang baru bergabung ke dalam 
 tim untuk bisa membuat tampilan website lebih stabil , kemudian para investor juga menyarankan untuk mengganti arsitektur nya dari Monolithic 
 menggunakan Microservices.
 
-    Dengan saran tersebut dan masalah yang sering muncul dengan menggunakan monolithic . Tim developer ingin mencoba mengImplemetasikan arsitektur
+Dengan saran tersebut dan masalah yang sering muncul dengan menggunakan monolithic . Tim developer ingin mencoba mengImplemetasikan arsitektur
 Microservices sehingga HIMALL membutuhkan Seorang Devops yang handal. Dengan adanya Devops HIMALL bisa mengupdate fiture dengan mudah, feedback dan
 mudah dimonitor. Kaamil seorang Devops yang ingin membuat culture di Start-up e-commerce fashion tersebut. DevOps merupakan singkatan daari Development
 dan Operation. Dimana DEVOPS adalah seorang profesional IT yang bertujuan memadukan proses development , deployment dan integrasi ke dalam suatu proses 
@@ -24,66 +24,7 @@ oleh DevOps adalah kordinasi antara tim yang dapat dilakukan dengan cara singkat
   <img src="https://user-images.githubusercontent.com/90564871/133935923-10bfd508-9da8-4880-b33c-d97e8a567a41.png"Sublime's custom image" height="400" width="600" />
 </p>
 
-                                                                                                                          
-                                                                                                                          
-Continuous Integration (CI) dan Continuous Deployment (CD)
-                                                                                                                          
-    Continuous Integration / integrasi berkelanjutan adalah praktik dari DevOps , seorang developer bisa mengintegrasikan kode ke dalam repositori kode
-dan bisa menguji dengan cepat dan otomatis. sedangkan Continuous Deployment / penyebaran berkelanjutan adalah praktik setelah kode berhasil terintegrasi, 
-aplikasi kita bisa dibangun lalu rilis secara otomatis.
-                                                                                                                          
-keuntungan CI/CD : 
--   Mendapatkan Feedback Lebih Cepat Menggunakan CI Tools
--   Mendeteksi Bug lebih awal
--   Visibilitas lebih baik
-                                                                                                                          
-                                                                                                                          
-                                                                                                                         
-Metode DevOps memiliki siklus dalam pengembangan software. Berikut adalah penjelasan tentang siklus metode DevOps :
-
-1. Plan
-
-Tahap perencanaan, identifikasi tujuan dan persyaratan untuk merancang perkembangan software. kegiatan lain yang dilakukan yaitu
-manajemen proyek, penjadwalan, kebijakan/persyaratan, serta rencana awal untuk perbaruan dan perilisan di seluruh literasi.
-
-2. Develop
-
-Pada tahap sebelumnya, tim pengembang fokus untuk mengembangkan dan meninjau kode perangkat lunak atau IaC. Pengujian integrasi dan
-unit dilakukan berdasarkan build automation tools.
-
-3. Build
-                                                                                                                  
-tim developer selesai menulis kode dan  memasukan kode ke dalam shared code repository dan mengirimkan permintaan penggabungan kode,
-setelah mereview perubahan yang dilakukan. Jika sudah sempurna, maka developer tersebut akan menyetujui 
-permintaan penggabungan kode yang telah dikirim sebelumnya.
-                                                                                                                          
-4.	Test
-                                                                                                                          
-Fase selanjutnya adalah pengujian. Jika ada masalah yang ditemukan, maka akan dikirim kembali ke tim developer untuk diselesaikan.
-                                                                                                                          
-5. Release
-                                                                                                                          
-Fase release menjadi tonggak penting dalam DevOps pipeline. Pada tahap ini, setiap perubahan kode telah melewati serangkaian pengujian dan tim IT operations telah memastikan bahwa masalah yang merusak dan regresi sudah teratasi dengan baik.
-
-6.	Deploy
-                                                                                                                          
-Deploy menjadi hal terpenting dalam DevOps. Pada tahap ini, setiap perubahan kode sudah melalui test dan tim IT operations telah
-memastikan bahwa masalah sudah teratasi dengan baik , dan siap di rilis.
-                                                                                                                          
-7. Operate
-
-Operasi dalam siklus DevOps berhubungan dengan konfigurasi dan pengelolaan aplikasi software setelah penerapan. misalnya, 
-penyediaan sumber daya dan penskalaan otomatis. Orchestrator dan metode runtime lainnya yang dapat menyesuaikan topologi dan komponen aplikasi.
-
-8. Monitor
-                                                                                                                          
-Tahap terakhir , tim IT operations akan memantau infrastruktur, sistem, dan aplikasi. Untuk memastikan bahwa aplikasi yang dikembangkan berjalan lancar.
-Mereka mengumpulkan data penting dari log, analitik, sistem monitoring, serta melihat feedback dari pengguna untuk mengetahui jika ada masalah 
-pada kinerja aplikasi. Kinerja aplikasi dipantau dengan mengumpulkan dan menganalisis data penggunaan , dapat membantu mendeteksi error dan
-memberikan umpan balik untuk peningkatan software. Penelusuran dan diagnostic masalah , penting untuk perkembangan aplikasi di seluruh siklus rilis.
-                                                                                                                          
-                                                                                                                                         
-
+                                                                                                                                                               
 Continuous Integration (CI) dan Continuous Deployment (CD)
                                                                                                                           
 Continuous Integration / integrasi berkelanjutan adalah praktik dari DevOps , seorang developer bisa mengintegrasikan kode ke dalam repositori kode
@@ -94,27 +35,40 @@ keuntungan CI/CD :
 -   Mendapatkan Feedback Lebih Cepat Menggunakan CI Tools
 -   Mendeteksi Bug lebih awal
 -   Visibilitas lebih baik
-                                                                                                               
-Tools untuk proses CI/CD
-
-1. Open-Source Tools
-Beberapa permintaan customer untuk bisa menyesuaikan budget maka baiknya dengan menggunakan open-source tools untuk melakukan automasi pada proses CI/CD. 
-Contohnya : Jenkins
-
-2. Cloud
-Untuk melakukan self-host pada aplikasi CI/CD , membantu setup dan memonitor aplikasi lebih efektif.
-Contohnya : jenkins atau cruise control
-
-3. Build Status
-Penting untuk memilih tools yang bisa memonitor keseluruhan proses (transparan).
-Contohnya : melalui notifikasi, email, atau bentuk komunikasi lainnya.
-                                                                                                                                         
-                                                                                                                                         
+                             
+                                                                                                                                           
+                                                                                                                          
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90564871/133939668-f01ded9d-a525-49e1-8515-ff00353c8242.png"Sublime's custom image"/>
+  <img src="https://user-images.githubusercontent.com/90564871/134045146-3e360cfe-0e68-4469-a77f-9f532000e3df.png"Sublime's custom image" height="500" width="850" />
 </p>
+          
+          
+                                                                                                                       
+Metode DevOps memiliki siklus dalam pengembangan software. Berikut adalah penjelasan tentang siklus metode DevOps :
 
+1. Plan
 
+Tahap perencanaan, identifikasi tujuan dan persyaratan untuk merancang perkembangan software. kegiatan lain yang dilakukan yaitu
+manajemen proyek, penjadwalan, kebijakan/persyaratan, serta rencana awal untuk perbaruan dan perilisan di seluruh literasi , tools yang 
+digunakan adalah saltstack . Software ini membantu dalam manajemen otomatis dan pemantauan sistem server. Menggunakan SaltStack, 
+dimungkinkan untuk menginstal dan mengkonfigurasi Software 
+dari komputer pusat dan menjalankan sejumlah perintah konfigurasi.
+
+2. code 
+
+Pada tahap ini Tim Development melakukan coding secara bersamaan di workstation masing masing dan akan dikirimkan kepada Repository di cloud, 
+QA akan melihat dan menganalis code yang sudah sesuai dan tidak ada bug, lalu setelah itu akan di gabungkan ke dalam main/master atau aplikasi utama 
+yang sudah melewati tahap analisis. tools yang digunakan adalah chef . Chef memiliki dukungan API dari AWS, Azure, Rackspace, yang membuatnya mudah 
+digunakan dengan metodologi infrastruktur-sebagai-kode.
+
+3. Continuous Integration ( CI ) & Continuous Delivery and Deployment
+   
+Tahap ini melakukan build dan testing pada aplikasi web HIMALL dan disini perusahaan menggunakan Docker untuk build dan testing secara otomatis,
+Docker adalah container memungkinkan para developer untuk mengisolasi kode ke dalam satu wadah sehingga membantu developer lebih mudah untuk memodifikasi
+dan memperbaharui program yang ada. Membantu mengotomatiskan bagian-bagian pengembangan perangkat lunak yang terkait dengan build, testing dan deploy
+dan dapat melakukan proses yang berkelanjutan. Dengan peroses integrasi yang berkelanjutan yang efesien, pengembangan lebih komitmen, yang akan membantu meningkatkan komunikasi dan meningkatkan kualitas perangkat lunak.
+                                                                                                      
+                                                                                                                                        
 4 tools yang harus dikuasai devops
 
 
@@ -134,4 +88,3 @@ tools ini bisa memproses pengujian berkelanjutan untuk menguji kinerja dan fungs
 4. DOCKER
 Container management tool yang semakin berkembang dan salah satu tools penting untuk DevOps Engineer. Docker berguna ditahap deployment untuk 
 kontainerisasi aplikasi sehingga aplikasi bisa bekerja efisien untuk environment yang berbeda.
-
