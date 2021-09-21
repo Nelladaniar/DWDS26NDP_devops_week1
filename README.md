@@ -20,9 +20,13 @@ untuk mengetahui gambaran proses bisnis yang diharapkan . devops juga sangat men
 oleh DevOps adalah kordinasi antara tim yang dapat dilakukan dengan cara singkat .
 
 
+
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90564871/133935923-10bfd508-9da8-4880-b33c-d97e8a567a41.png"Sublime's custom image" height="400" width="600" />
 </p>
+                                                                                                                          
+                                                                                                                          
 
                                                                                                                                                                
 Continuous Integration (CI) dan Continuous Deployment (CD)
@@ -35,12 +39,17 @@ keuntungan CI/CD :
 -   Mendapatkan Feedback Lebih Cepat Menggunakan CI Tools
 -   Mendeteksi Bug lebih awal
 -   Visibilitas lebih baik
-                             
-                                                                                                                                           
+             
+                                                                                                                          
+            
+                                                                                                                          
+                                                                                                                          
                                                                                                                           
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90564871/134045146-3e360cfe-0e68-4469-a77f-9f532000e3df.png"Sublime's custom image" height="500" width="850" />
 </p>
+          
+          
           
           
                                                                                                                        
@@ -50,7 +59,8 @@ Metode DevOps memiliki siklus dalam pengembangan software. Berikut adalah penjel
 
 Tahap perencanaan, identifikasi tujuan dan persyaratan untuk merancang perkembangan software. kegiatan lain yang dilakukan yaitu
 manajemen proyek, penjadwalan, kebijakan/persyaratan, serta rencana awal untuk perbaruan dan perilisan di seluruh literasi , tools yang 
-digunakan adalah google drive . tool ini membantu dalam manajemen otomatis dan pemantauan sistem server didukung dengan kapasitas penyimpanan online yang cukup besar terintegrasi dengan layanan google lainnya , dapat menyimpat dengan berbagai format, multiplatform dengan sistem keamanan terbaik
+digunakan adalah google drive . tool ini membantu dalam manajemen otomatis dan pemantauan sistem server didukung dengan kapasitas penyimpanan online 
+yang cukup besar terintegrasi dengan layanan google lainnya , dapat menyimpat dengan berbagai format, multiplatform dengan sistem keamanan terbaik
 
 2. code 
 
@@ -70,13 +80,17 @@ pada proyek sebelum akhirnya meluncurkan software.
 
 Tools Amazone Web Service , fitur yang dimiliki oleh Dev Tools AWS devops bisa di rollback aplikasi yang telah di deploy untuk dengan aplikasi sebelumnya,
 untuk mengatasi masalah blue and green deployment . layanan cloud yang aman, AWS menawarkan tenaga komputasi, ruang penyimpanan database. HIMALL 
-menggunakan AWS dalam menerapkan kedalam cloud. Dengan aws kami dapat memilih produk yang memudahkan dalam membangun bisnis, infrastructure as a service 
-adalah istilah yang tepat untuk AWS, Setelah docker sudah di install di dalam amazon web service 
+menggunakan AWS dalam menerapkan kedalam cloud. Dengan aws tim devops bisa memilah produk yang memudahkan dalam membangun bisnis.
                                                                                                       
                                                                                                                                         
 <p align="center">
   <img src="https://user-images.githubusercontent.com/90564871/134093500-d6833605-8bc1-4b90-b5f4-cafbb69494de.png"Sublime's custom image" height="1000" width="850" />
 </p>
 
-
+lalu tim devops mengkonfigurasi server agar ip bisa di akses. buat instance dan pilih os apa yang ingin kita gunakan → pilih instance type 
+→ tekan next sampai dengan add storage ubah sesuai kebutuhan → Tag value → configurasi security group, tambahkan type SSH port 22 dan HTTPS port 443 
+→ klik lunch , pilih key pair /buat agar bisa di akses SSH melewati terminal jika menggunakan linux → klik launch instances, setelah membuat instance 
+klik instance docker , copy ip public yang berada di desccription → gunakan mobaXterm , buat session jenkins dan docker → paste Ip ke session docker di 
+remote host → konfigurasi sesuai yg di inginkan → install docker menggunakan mobaXtrem yg telah configurasi. Jika kita ingin mengakses suatu instance kita dapat 
+copy Ip nya dan lalu paste ke dalam terminal.
 
