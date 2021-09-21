@@ -50,43 +50,33 @@ Metode DevOps memiliki siklus dalam pengembangan software. Berikut adalah penjel
 
 Tahap perencanaan, identifikasi tujuan dan persyaratan untuk merancang perkembangan software. kegiatan lain yang dilakukan yaitu
 manajemen proyek, penjadwalan, kebijakan/persyaratan, serta rencana awal untuk perbaruan dan perilisan di seluruh literasi , tools yang 
-digunakan adalah saltstack . Software ini membantu dalam manajemen otomatis dan pemantauan sistem server. Menggunakan SaltStack, 
-dimungkinkan untuk menginstal dan mengkonfigurasi Software 
-dari komputer pusat dan menjalankan sejumlah perintah konfigurasi.
+digunakan adalah google drive . tool ini membantu dalam manajemen otomatis dan pemantauan sistem server didukung dengan kapasitas penyimpanan online yang cukup besar terintegrasi dengan layanan google lainnya , dapat menyimpat dengan berbagai format, multiplatform dengan sistem keamanan terbaik
 
 2. code 
 
 Pada tahap ini Tim Development melakukan coding secara bersamaan di workstation masing masing dan akan dikirimkan kepada Repository di cloud, 
-QA akan melihat dan menganalis code yang sudah sesuai dan tidak ada bug, lalu setelah itu akan di gabungkan ke dalam main/master atau aplikasi utama 
-yang sudah melewati tahap analisis. tools yang digunakan adalah chef . Chef memiliki dukungan API dari AWS, Azure, Rackspace, yang membuatnya mudah 
-digunakan dengan metodologi infrastruktur-sebagai-kode.
+QA akan melihat dan menganalis code yang sudah sesuai dan tidak ada bug, lalu setelah itu akan di gabungkan ke dalam main/master atau
+aplikasi utama yang sudah melewati tahap analisis. tools yang digunakan adalah gitlab . layanan mirip github yang digunakan untuk menyediakan 
+manajemen internal git repositories. Menyediakan versi GitLab Community Edition bagi pengguna untuk menemukan di mana server kode mereka present.
+GitLab menyediakan public repositories dan private tanpa batas secara gratis.
 
 3. Continuous Integration ( CI ) 
    
-Tahap ini melakukan build dan testing pada aplikasi web HIMALL dan disini perusahaan menggunakan Docker untuk build dan testing secara otomatis,
-Docker adalah container memungkinkan para developer untuk mengisolasi kode ke dalam satu wadah sehingga membantu developer lebih mudah untuk memodifikasi
-dan memperbaharui program yang ada. Membantu mengotomatiskan bagian-bagian pengembangan perangkat lunak yang terkait dengan build, testing dan deploy
-dan dapat melakukan proses yang berkelanjutan. Dengan peroses integrasi yang berkelanjutan yang efesien, pengembangan lebih komitmen, yang akan membantu meningkatkan komunikasi dan meningkatkan kualitas perangkat lunak.
+Tahap ini melakukan build dan testing pada aplikasi web HIMALL dan disini perusahaan menggunakan jenkins untuk build dan testing secara otomatis,
+jenkins adalah tools continuous integration andalan untuk para DevOps engineer . Developer akan lebih mudah mengintegrasikan berbagai perubahan 
+pada proyek sebelum akhirnya meluncurkan software.
 
 4. Continuous Delivery and Deployment
+
+Tools Amazone Web Service , fitur yang dimiliki oleh Dev Tools AWS devops bisa di rollback aplikasi yang telah di deploy untuk dengan aplikasi sebelumnya,
+untuk mengatasi masalah blue and green deployment . layanan cloud yang aman, AWS menawarkan tenaga komputasi, ruang penyimpanan database. HIMALL 
+menggunakan AWS dalam menerapkan kedalam cloud. Dengan aws kami dapat memilih produk yang memudahkan dalam membangun bisnis, infrastructure as a service 
+adalah istilah yang tepat untuk AWS, Setelah docker sudah di install di dalam amazon web service 
                                                                                                       
                                                                                                                                         
-4 tools yang harus dikuasai devops
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/90564871/134093500-d6833605-8bc1-4b90-b5f4-cafbb69494de.png"Sublime's custom image" height="1000" width="850" />
+</p>
 
 
-1. JENKINS
-automation server yang bersifat open source dan membantu mengotomatisasi proses software development dengan CI/CD .
-Jenkins populer di dunia DevOps Engineer karena lebih dari 1000 plugin bisa terintegrasi hampir semua alat DevOps.
-  
-2. GIT
-Git juga banyak dipakai oleh DevOps Engineer. karena memiliki fungsionalitas, kinerja, keamanan, dan fleksibilitas yang dibutuhkan tim pengembang.
-Git berfungsi sebagai alat Devops untuk distributed version-control yang penting. Git dapat melacak progres dari pengembangan sebuah projek 
-dan melihat jika ada perubahan kode di dalam source code. Sangat membantu DevOps Engineer ketika mengimplementasikan CI/CD pipeline.
 
-3. SELENIUM
-Automation testing tool untuk web application yang bisa digunakan pada berbagai browser. Biasanya digunakan oleh tim QA untuk proses software testing.
-tools ini bisa memproses pengujian berkelanjutan untuk menguji kinerja dan fungsionalitas kode yang dikembangkan.
-
-4. DOCKER
-Container management tool yang semakin berkembang dan salah satu tools penting untuk DevOps Engineer. Docker berguna ditahap deployment untuk 
-kontainerisasi aplikasi sehingga aplikasi bisa bekerja efisien untuk environment yang berbeda.
