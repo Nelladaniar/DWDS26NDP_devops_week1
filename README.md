@@ -1,7 +1,7 @@
 
 Project Week 1
 
-PT. HIDAYATULLAH GLOBAL AMARTA
+PT. HIKAYAT GLOBAL AMARTA
     
 
 Salah satu perusahaan start-up dibidang e-commerce fashion yang berpusat di Jakarta Timur dengan nama HIMALL, menyediakan berbagai 
