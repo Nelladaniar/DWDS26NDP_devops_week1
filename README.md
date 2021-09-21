@@ -84,7 +84,7 @@ menggunakan AWS dalam menerapkan kedalam cloud. Dengan aws tim devops bisa memil
                                                                                                       
                                                                                                                                         
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90564871/134093500-d6833605-8bc1-4b90-b5f4-cafbb69494de.png"Sublime's custom image" height="1000" width="850" />
+  <img src="https://user-images.githubusercontent.com/90564871/134093500-d6833605-8bc1-4b90-b5f4-cafbb69494de.png"Sublime's custom image" height="850" width="700" />
 </p>
 
 lalu tim devops mengkonfigurasi server agar ip bisa di akses. buat instance dan pilih os apa yang ingin kita gunakan → pilih instance type 
@@ -93,4 +93,17 @@ lalu tim devops mengkonfigurasi server agar ip bisa di akses. buat instance dan 
 klik instance docker , copy ip public yang berada di desccription → gunakan mobaXterm , buat session jenkins dan docker → paste Ip ke session docker di 
 remote host → konfigurasi sesuai yg di inginkan → install docker menggunakan mobaXtrem yg telah configurasi. Jika kita ingin mengakses suatu instance kita dapat 
 copy Ip nya dan lalu paste ke dalam terminal.
+
+Untuk melihat apakah website HIMALL berjalan dengaan lancar tim devops menggunakan tool monitoring yaitu nagios dan zabbix . acuan data dari nagios dan 
+grafisnya dari zabbix . Nagios adalah server sumber terbuka dan alat pemantauan jaringan yang mempunyai kemampuan seperti tinjauan sejawat, modifikasi kode .
+Kemampuan memantau perangkat jaringan dengan alamat IP dan memberikan peringatan jika terjadi sesuatu yang tidak normal pada layanan yang dipantau. 
+zabbix adalah murni open source dan alat pemantauan server gratis yang bisa dengan mudah memantau server, aplikasi, dan perangkat jaringan, yang 
+memberikan statistik akurat dan data kinerja Data yang dikumpulkan oleh Zabbix, akan mudah untuk menganalisis infrastruktur . kobinasi dari kedua tool tersebuh kita dapat memonitoring aplikasi dengan lebih visual dan eye cacthing
+
+Keuntungan:-
+
+-   Zabbix dirancang untuk skala dari lingkungan kecil ke lingkungan besar.
+-   Zabbix dipercaya oleh merek global di seluruh dunia seperti Dell, HP, Salesforce, T Systems, dll.
+
+Dengan begitu e-commerse HIMALL yang dinaungi PT. HIKAYAT GLOBAL AMARTA melakukan update fiture dengan lebih cepat dan andal. Lalu memungkinkan cara kerja yang lebih fleksibel, sehingga apa yang dibutuhkan oleh perusahaan dapat diselesaikan dengan cepat sampai kepada end user.
 
